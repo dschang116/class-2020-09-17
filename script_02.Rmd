@@ -32,7 +32,8 @@ en_fall_2020 <- raw_data %>%
          name = "Course Name",
          section_code = "Course Section Code",
          department = "Course Department",
-         instructor_full_name = "Instructor Full Name")
+         instructor_full_name = "Instructor Full Name") %>%
+  arrange(desc(UGrad))
 ```
 
 ### Scene 2
